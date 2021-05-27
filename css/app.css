@@ -1,0 +1,143 @@
+:root {
+  --white: #ffffff;
+  --liblue: #4D69F5;
+  --ghostwhite: #F3F6FF;
+  --gray1: #00000029;
+  --dblue: #122791;
+  --liwhite2: #C4C8DE4D;
+  --text1: #57575B;
+  --text2: #9696A7;
+  --text3: #ACB1CC;
+  --text4: #0A0A0A;
+  --black: #000000;
+  --green: #3EB27B;
+  --licyan: #DFFCFF;
+  --payanton: #1DD4E6;
+  --lightred: #EF4F65;
+  --purpleheart: #5A2CE3;
+  --liyellow: #FCE76C;
+}
+
+/* Font */
+@font-face {
+  	font-family: "basier-reg";
+  	src: url("../fonts/BasierCircle-Regular.woff") format("woff"),
+    url("../fonts/BasierCircle-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  	font-family: "basier-med";
+  	src: url("../fonts/BasierCircle-Medium.woff") format("woff"),
+    url("../fonts/BasierCircle-Medium.ttf") format("truetype");
+}
+
+
+/* Main stuff */
+body {
+	background-color: var(--liblue);
+	font-family: basier-reg;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* text basic style */
+.bc-reg-36 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 36px;
+  color: var(--dblue);
+}
+.bc-reg-10 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--text2);
+}
+.bc-reg-12-t2 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--text2);
+}
+.bc-reg-14-bl {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--black);
+}
+.bc-reg-12-lb {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--liblue);
+}
+.bc-reg-13 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--text2);
+}
+.bc-med-22 {
+  font-family: basier-med;
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--text1);
+}
+.bc-reg-16-t2 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text2);
+}
+.bc-reg-12-wh {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--white);
+}
+.bc-reg-16-t3 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text3);
+}
+.bc-reg-18{
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--black);
+}
+.bc-reg-12-bl {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--black);
+}
+.bc-reg-14-t4 {
+  font-family: basier-reg;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text4);
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
