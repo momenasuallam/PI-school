@@ -354,6 +354,7 @@ margin-left: 12px;
 .siden3 img {
 width: 35px;
 height: 35px;
+border-radius: 25px;
 }
 .siden3 p {
  font-family: basier-reg;
