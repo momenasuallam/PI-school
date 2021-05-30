@@ -1,133 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard</title>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/newstyle.css" />
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/fa-all.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
 
-  <body>
-    <div class="maind">
-      <div class="sidemenu">
-        <div class="mainlogo">
-          <a href="page-1.html"><img src="./img/pi-logo.png" /></a>
-        </div>
-        <div class="smoptions">
-          <a href="#" class="">
-            <img src="./img/icon-03.svg" />
-            <p>Menaxhimi</p>
-          </a>
-          <a href="#" class="activesm">
-            <img src="./img/icon-04.svg" />
-            <p>Ndërto Orarin</p>
-          </a>
-          <a href="#">
-            <img src="./img/icon-05.svg" />
-            <p>Mësuesit</p>
-          </a>
-          <a href="#">
-            <img src="./img/icon-06.svg" />
-            <p>Nxënësit</p>
-          </a>
-          <a href="#">
-            <img src="./img/icon-07.svg" />
-            <p>Njoftime</p>
-          </a>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/newstyle.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/fa-all.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="maind">
+    <div class="sidemenu">
+      <div class="mainlogo">
+        <a href="page-1.html"><img src="./img/pi-logo.png" /></a>
+      </div>
+      <div class="smoptions">
+        <a href="#" class="">
+          <img src="./img/icon-03.svg" />
+          <p>Menaxhimi</p>
+        </a>
+        <a href="#" class="activesm">
+          <img src="./img/icon-04.svg" />
+          <p>Ndërto Orarin</p>
+        </a>
+        <a href="#">
+          <img src="./img/icon-05.svg" />
+          <p>Mësuesit</p>
+        </a>
+        <a href="#">
+          <img src="./img/icon-06.svg" />
+          <p>Nxënësit</p>
+        </a>
+        <a href="#">
+          <img src="./img/icon-07.svg" />
+          <p>Njoftime</p>
+        </a>
         <a href="#">
           <img src="./img/icon-08.svg" />
           <p>Komente</p>
         </a>
-          <a href="#">
+        <a href="#">
           <img src="./img/icon-09.svg" />
           <p>Evidenca</p>
         </a>
-        </div>
-        <div class="backar">
-          <a href="#"><img src="./img/back-arrow.svg" /></a>
-        </div>
       </div>
-      <div class="mainpagediv">
-        <div class="pagetopd">
+      <div class="backar">
+        <a href="#"><img src="./img/back-arrow.svg" /></a>
+      </div>
+    </div>
+    <div class="mainpagediv">
+      <div class="pagetopd">
+        <div>
+          <h2>Dashboard</h2>
+        </div>
+        <div class="sidethings">
+          <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" placeholder="Kërko" />
+          </div>
+
           <div>
-            <h2>Dashboard</h2>
+            <ul class="notification-drop">
+              <li class="item">
+                <img src="./img/Artboard – 1-02.png" class="fa fa-bell-o notification-bell" />
+                <ul>
+                  <li>
+                    <p>6:30 - 7:30</p>
+                    <h3>Takim me prindër</h3>
+                  </li>
+                  <li>
+                    <p>6:30 - 7:30</p>
+                    <h3>Takim me prindër</h3>
+                  </li>
+                  <li>
+                    <p>6:30 - 7:30</p>
+                    <h3>Takim me prindër</h3>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
-          <div class="sidethings">
-            <div class="form-group has-search">
-              <span class="fa fa-search form-control-feedback"></span>
-              <input type="text" class="form-control" placeholder="Kërko" />
-            </div>
 
-            <div>
-              <ul class="notification-drop">
-                <li class="item">
-                  <img
-                    src="./img/Artboard – 1-02.png"
-                    class="fa fa-bell-o notification-bell"
-                  />
-                  <ul>
-                    <li>
-                      <p>6:30 - 7:30</p>
-                      <h3>Takim me prindër</h3>
-                    </li>
-                    <li>
-                      <p>6:30 - 7:30</p>
-                      <h3>Takim me prindër</h3>
-                    </li>
-                    <li>
-                      <p>6:30 - 7:30</p>
-                      <h3>Takim me prindër</h3>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
+          <div class="siden3">
+            <img src="./img/Image 7.png" />
+            <p>Shkolla Elite</p>
 
-            <div class="siden3">
-              <img src="./img/Image 7.png" />
-              <p>Shkolla Elite</p>
-
-              <div class="select-dropdown">
-                <select>
-                  <option value="Lan">Lan</option>
-                  <option value="Lan 1">Lan 2</option>
-                  <option value="Lan 2">Lan 3</option>
-                </select>
-              </div>
+            <div class="select-dropdown">
+              <select>
+                <option value="Lan">Lan</option>
+                <option value="Lan 1">Lan 2</option>
+                <option value="Lan 2">Lan 3</option>
+              </select>
             </div>
           </div>
         </div>
-
-      
       </div>
-
 
       <section>
         <div class="topdash">
           <div class="row">
             <div class="col-md-7">
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6 col-6">
+                  <div class="dashbox1">
+                    <div>
+                      <img src="./img/icon-06.svg" />
+                      <p>Nxënësit</p>
+                    </div>
+                    <h2>
+                      1203
+                    </h2>
+                  </div>
 
                 </div>
-                   <div class="col-md-4">
-
+                <div class="col-md-4 col-sm-6 col-6">
+                  <div class="dashbox1 chcolobox11">
+                    <div>
+                      <img src="./img/icon-05.svg" />
+                      <p>Mësues</p>
+                    </div>
+                    <h2>
+                      350
+                    </h2>
+                  </div>
                 </div>
-                   <div class="col-md-4">
-
+                <div class="col-md-4 col-sm-6 col-6">
+                  <div class="dashbox1 chcolobox12">
+                    <div>
+                      <i class="fa fa-star-o" aria-hidden="true"></i>
+                      <p>Mesatarja</p>
+                    </div>
+                    <h2>
+                      10.2
+                    </h2>
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-md-5">
-
+              <div class="dashbox1 chcolobox13">
+                <div>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <p>Nxënesit e dalluar</p>
+                </div>
+                <div class="boxdashimgs">
+                  <img src="./img/Image 45.png" />
+                  <img src="./img/Image 46.png" />
+                  <img src="./img/Image 47.png" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -135,48 +162,289 @@
         <div class="middledash">
           <div class="row">
             <div class="col-md-7">
-      
+              <div class="barchart1">
+                <div class="barchart1top">
+                  <h2>Mungesat Mujore</h2>
+                  <div class="select-dropdown">
+                    <select>
+                      <option value="vitet e para">vitet e para</option>
+                      <option value="vitet e para 1">vitet e para 2</option>
+                      <option value="vitet e para 2">vitet e para 3</option>
+                    </select>
+                  </div>
+                </div>
+                <canvas id="barChart"></canvas>
+              </div>
             </div>
             <div class="col-md-5">
-
+              <div class="barchart1">
+                <div class="barchart1top">
+                  <h2></h2>
+                  <div class="select-dropdown">
+                    <select>
+                      <option value="vitet e para">vitet e para</option>
+                      <option value="vitet e para 1">vitet e para 2</option>
+                      <option value="vitet e para 2">vitet e para 3</option>
+                    </select>
+                  </div>
+                </div>
+                <!-- <canvas id="donutchart1"></canvas> -->
+                <div class="donut_cont">
+                   <canvas id="donutchart"></canvas>
+              <!-- <div class="donut_text">
+                <h1>87.5%</h1>
+                <p>Procese te suksesshme</p>
+              </div> -->
+                </div>
+                
+              </div>
             </div>
           </div>
         </div>
 
-          <div class="bottomdash">
+        <div class="bottomdash">
           <div class="row">
-             <div class="col-md-5">
-
+            <div class="col-md-6">
+              <div class="linechatdiv">
+                <canvas id="linechart"></canvas>
+              </div>
             </div>
-            <div class="col-md-7">
-      
+            <div class="col-md-6">
+              <div class="linechatdiv">
+                <div class="barchart1top">
+                  <h2>Informacione specifike</h2>
+                  <div class="select-dropdown">
+                    <select>
+                      <option value="vitet e para">vitet e para</option>
+                      <option value="vitet e para 1">vitet e para 2</option>
+                      <option value="vitet e para 2">vitet e para 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="table__wrapper">
+                    <table class="table tbldash">
+                      <tbody>
+                        <tr>
+                          <th scope="row">
+                            <p>Klasa 1-4</p>
+                          </th>
+                          <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>24</span>
+                          </td>
+                           <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>84%</span>
+                          </td>
+                           <td class="tdgreenvl">
+                            <p>Nr. i nxënësve</p>
+                            <span>8.4</span>
+                          </td>
+                        </tr>
+                          <tr>
+                          <th scope="row">
+                            <p>Klasa 1-4</p>
+                          </th>
+                          <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>24</span>
+                          </td>
+                           <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>84%</span>
+                          </td>
+                           <td class="tdgreenvl">
+                            <p>Nr. i nxënësve</p>
+                            <span>8.4</span>
+                          </td>
+                        </tr>
+                          <tr>
+                          <th scope="row">
+                            <p>Klasa 1-4</p>
+                          </th>
+                          <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>24</span>
+                          </td>
+                           <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>84%</span>
+                          </td>
+                           <td class="tdgreenvl">
+                            <p>Nr. i nxënësve</p>
+                            <span>8.4</span>
+                          </td>
+                        </tr>
+                          <tr>
+                          <th scope="row">
+                            <p>Klasa 1-4</p>
+                          </th>
+                          <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>24</span>
+                          </td>
+                           <td>
+                            <p>Nr. i nxënësve</p>
+                            <span>84%</span>
+                          </td>
+                           <td class="tdgreenvl">
+                            <p>Nr. i nxënësve</p>
+                            <span>8.4</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
 
       </section>
+
     </div>
 
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/popper.min.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $(".notification-drop .item").on("click", function () {
-          $(this).find("ul").toggle();
-        });
-        $(".notification-drop2 .item").on("click", function () {
-          $(this).find("ul").toggle();
-        });
+
+
+  </div>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $(".notification-drop .item").on("click", function () {
+        $(this).find("ul").toggle();
+      });
+      $(".notification-drop2 .item").on("click", function () {
+        $(this).find("ul").toggle();
+      });
+    });
+  </script>
+  <script>
+    var ctx = document.getElementById("barChart").getContext('2d');
+    var barChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sst", "Sun"],
+        datasets: [{
+          label: 'data-1',
+          data: [12, 19, 3, 17, 28, 24, 7],
+          backgroundColor: "#7B4FFF",
+          borderRadius: "5px"
+        }, {
+          label: 'data-2',
+          data: [30, 29, 5, 5, 20, 3, 10],
+          backgroundColor: "#CBC6D7",
+          borderRadius: "5px"
+        }]
+      }
+
+    });
+
+  </script>
+  <script>
+    var ctx2 = document.getElementById("linechart").getContext('2d');
+
+
+    var myChart = new Chart(ctx2, {
+      type: 'line',
+      data: {
+        labels: ["Janar", "Janar", "Janar", "Janar", "Janar", "Janar"],
+        datasets: [{
+          label: 'Series 1', // Name the series
+          data: [10, 20, 30, 20, 25, 15], // Specify the data values array
+          fill: false,
+          borderColor: '#2196f3', // Add custom color border (Line)
+          backgroundColor: '#2196f3', // Add custom color background (Points and Fill)
+          borderWidth: 1 // Specify bar border width
+        }]
+      },
+      options: {
+        responsive: true, // Instruct chart js to respond nicely.
+        maintainAspectRatio: false, // Add to prevent default behaviour of full-width/height 
+      }
+    });
+
+  </script>
+
+  <script>
+    var data = {
+      labels: [
+        "Red",
+        "Blue",
+        "Yellow"
+      ],
+      datasets: [
+        {
+          data: [300, 50, 100],
+          backgroundColor: [
+            "#FF6384",
+            "#36A2EB",
+            "#FFCE56"
+          ],
+          hoverBackgroundColor: [
+            "#FF6384",
+            "#36A2EB",
+            "#FFCE56"
+          ]
+        }]
+    };
+
+    var promisedDeliveryChart = new Chart(document.getElementById('donutchart1'), {
+      type: 'doughnut',
+      data: data,
+      options: {
+        responsive: true,
+        legend: {
+          display: true
+        }
+      }
+    });
+
+
+  </script>
+
+     <script>
+      var myChart = new Chart(document.getElementById("donutchart"), {
+        type: "doughnut",
+        data: {
+          labels: ["color 1", "color 2", "color 3"],
+          datasets: [
+            {
+              data: [85, 15, 5],
+              backgroundColor: ["#1529BC", "#ED71D7", "#FAEC45"],
+              hoverBackgroundColor: ["#1529BC", "#ED71D7", "#FAEC45"],
+              hoverBorderColor: ["#1529BC", "#ED71D7", "#FAEC45"],
+              borderColor: ["#1529BC", "#ED71D7", "#FAEC45"],
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          legend: {
+            display: true,
+          },
+          cutoutPercentage: 70,
+          tooltips: {
+            filter: function (item, data) {
+              var label = data.labels[item.index];
+              if (label) return item;
+            },
+          },
+        },
       });
     </script>
-  </body>
+
+</body>
+
 </html>
