@@ -135,7 +135,7 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f1f1f1; 
+  background: #ACB1CC; 
 }
 
 /* Handle on hover */
@@ -1919,4 +1919,122 @@ color: #ACB1CC;
 }
 .pagesnosh{
 padding: 6px 10px;
+}
+
+.dpagetop2 {
+margin-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+}
+.btnscuss {
+border: 1px solid #3EB27B;
+border-radius: 10px;
+color: #3EB27B;
+font-family: basier-reg;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+.opli{
+opacity: 0.5;
+}
+.hrblue{
+width: 50px;
+background-color: #4D69F5;
+}
+.btnbluee{
+border: 1px solid #4D69F5;
+border-radius: 10px;
+color: #4D69F5;
+font-family: basier-reg;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
+.hrlight{
+width: 50px;
+background-color: #ACB1CC;
+}
+.btnlightt{
+border: 1px solid #ACB1CC;
+border-radius: 10px;
+color: #ACB1CC;
+font-family: basier-reg;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: transparent;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    
+}
+@media(max-width: 768px)
+{
+  .hrdnon{
+    display: none;
+  }
+  .btnscuss{
+    margin-right: 10px;
+  }
+   .btnbluee{
+    margin-right: 10px;
+  }
+   .btnlightt{
+    margin-right: 10px;
+  }
+
+}
+.toptxtdivpf27{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 11px #C4C8DE4D;
+border-radius: 13px;
+padding: 12px 20px;
+margin-bottom: 15px;
+}
+.toptxtdivpf27 p{
+ color: #000;
+font-family: basier-reg;
+    font-weight: 400;
+    font-size: 14px; 
+    margin-bottom: 0px;
+}
+.toptxtdivpf27btn{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 11px #C4C8DE4D;
+border-radius: 13px;
+padding: 12px 20px;
+color: #ACB1CC;
+font-family: basier-reg;
+    font-weight: 400;
+    font-size: 14px; 
+    margin-bottom: 0px;
+    border: 0px solid;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.toptxtdivpf27btn span{
+color: #ACB1CC;
+border: 1px solid #ACB1CC;
+padding: 0px 7px;
+border-radius: 50%;
+margin-left: 5px;
+margin-bottom: 0;
+display: inline-block;
+}
+.form3 input {
+  background-color: transparent !important;
+}
+.formradiolb{
+  color: #000 !important;
+}
+
+.rowscroll{
+      flex-wrap: nowrap !important;
+    width: 100%;
+    overflow-x: scroll;
+    padding-bottom: 10px;
 }
